@@ -1,5 +1,5 @@
 from . import Base_Panel
-from Frame_Ranger_Lite import Utility_Function
+from FrameRangerLite import Utility_Function
 import bpy
 
 Master_Panel = Base_Panel.FR_PT_TU_Frame_Range_Remapper_Panel

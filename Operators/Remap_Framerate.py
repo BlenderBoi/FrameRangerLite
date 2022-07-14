@@ -1,7 +1,6 @@
 import bpy
 
-from Frame_Ranger_Lite import Utility_Function
-from Frame_Ranger_Lite import TU_Functions
+from .. import (Utility_Function,TU_Functions)
 
 class FR_OT_TU_Remap_Framerate(bpy.types.Operator):
 

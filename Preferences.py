@@ -1,9 +1,6 @@
-from Frame_Ranger_Lite import Utility_Function
+from . import Utility_Function
 
 import bpy
-import os
-import pathlib
-from bpy.types import Object
 
 addon_name = __package__.split(".")[0]
 
@@ -31,7 +28,7 @@ def update_panel(self, context):
 
     panels = []
 
-    from Frame_Ranger_Lite import Panels 
+    from . import Panels
 
     panel_module = Panels
     category = addon_preferences.PANEL_Frame_Remapper_Category

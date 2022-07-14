@@ -1,7 +1,6 @@
 
 import bpy
-from Frame_Ranger_Lite import Utility_Function
-
+from . import Utility_Function
 
 def draw_player(self, context):
 
@@ -155,6 +154,7 @@ class TIME_PT_auto_keyframing_Dopesheet(DopesheetButtons, bpy.types.Panel):
         if not prefs.edit.use_keyframe_insert_available:
             col.prop(tool_settings, "use_record_with_nla", text="Layered Recording")
 
+        col = layout.column(align=True)        
         col.label(text="Active Keying Set")
         row = col.row(align=True)
         row.prop_search(scene.keying_sets_all, "active", scene, "keying_sets_all", text="")
