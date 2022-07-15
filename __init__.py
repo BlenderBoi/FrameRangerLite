@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Frame Ranger Lite",
-    "author": "BlenderBoi",
-    "version": (2, 0, 1),
+    "author": "BlenderBoi, Blastframe",
+    "version": (2, 0, 2),
     "blender": (3, 1, 0),
     "description": "Utilities for Frame related operations",
     "warning": "",

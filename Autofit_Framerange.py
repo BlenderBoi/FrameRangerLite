@@ -1,7 +1,7 @@
 import bpy
 
 from bpy.app.handlers import persistent
-from Frame_Ranger_Lite import Utility_Function
+from . import Utility_Function
 
 @ persistent
 def load_setting(scene):

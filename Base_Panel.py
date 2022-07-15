@@ -1,6 +1,4 @@
 import bpy
-from Frame_Ranger_Lite import Utility_Function
-
 class FR_PT_TU_Frame_Range_Remapper_Panel(bpy.types.Panel):
 
     bl_label = "Frame Range Remapper"
